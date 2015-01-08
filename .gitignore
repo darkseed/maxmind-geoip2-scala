@@ -1,0 +1,32 @@
+*.class
+*.log 
+tags
+.*.swp
+.*.swo
+.DS_Store
+
+# sbt specific 
+.cache/ 
+.history/ 
+.lib/ 
+dist/* 
+target/ 
+lib_managed/ 
+src_managed/ 
+project/boot/
+org.scala-ide.sdt.core/META-INF/MANIFEST.MF
+org.scala-ide.sdt.update-site/site.xml
+
+# Scala IDE
+build
+.classpath
+.project
+.settings
+
+project/project
+project/target
+tmp
+logs
+
+# Maxmind database
+src/test/resources/*.mmdb
